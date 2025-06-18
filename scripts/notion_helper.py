@@ -4,7 +4,6 @@ import re
 import time
 
 from notion_client import Client
-import pendulum
 from retrying import retry
 from datetime import timedelta
 from dotenv import load_dotenv
