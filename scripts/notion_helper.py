@@ -10,7 +10,7 @@ from datetime import timedelta
 from dotenv import load_dotenv
 
 load_dotenv()
-from weread2notion.utils  import (
+from scripts.utils  import (
     format_date,
     get_date,
     get_first_and_last_day_of_month,
