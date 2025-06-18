@@ -6,7 +6,7 @@ import os
 import re
 import requests
 import base64
-from scripts.config  import (
+from config  import (
     RICH_TEXT,
     URL,
     RELATION,
