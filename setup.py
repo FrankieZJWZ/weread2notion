@@ -13,9 +13,9 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "book = weread2notionpro.book:main",
-            "weread = weread2notionpro.weread:main",
-            "read_time = weread2notionpro.read_time:main",
+            "book = scripts.book:main",
+            "weread = scripts.weread:main",
+            "read_time = scripts.read_time:main",
         ],
     },
     author="malinkang",
