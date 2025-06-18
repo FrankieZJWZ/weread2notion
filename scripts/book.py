@@ -1,8 +1,8 @@
 import pendulum
-from scripts.notion_helper import NotionHelper
-from scripts.weread_api import WeReadApi
-from scripts import utils
-from scripts.config import book_properties_type_dict, tz
+from notion_helper import NotionHelper
+from weread_api import WeReadApi
+import utils
+from config import book_properties_type_dict, tz
 
 TAG_ICON_URL = "https://www.notion.so/icons/tag_gray.svg"
 USER_ICON_URL = "https://www.notion.so/icons/user-circle-filled_gray.svg"
