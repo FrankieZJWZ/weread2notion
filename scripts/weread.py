@@ -1,4 +1,4 @@
-from scripts.notion_helper import NotionHelper
+from weread2notion.scripts.notion_helper import NotionHelper
 from scripts.weread_api import WeReadApi
 
 from scripts.utils import (
