@@ -1,7 +1,7 @@
-from weread2notion.notion_helper import NotionHelper
-from weread2notion.weread_api import WeReadApi
+from scripts.notion_helper import NotionHelper
+from scripts.weread_api import WeReadApi
 
-from weread2notion.utils import (
+from scripts.utils import (
     get_block,
     get_heading,
     get_number,
