@@ -6,7 +6,7 @@ import os
 import re
 import requests
 import base64
-from weread2notionpro.config  import (
+from weread2notion.config  import (
     RICH_TEXT,
     URL,
     RELATION,
