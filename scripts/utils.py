@@ -17,7 +17,6 @@ from config  import (
     TITLE,
     SELECT,
 )
-import pendulum
 
 MAX_LENGTH = (
     1024  # NOTION 2000个字符限制https://developers.notion.com/reference/request-limits
